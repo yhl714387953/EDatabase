@@ -21,20 +21,16 @@ Pod::Spec.new do |s|
 #TODO: Add long description of the pod here.
 #                       DESC
 
-  s.homepage         = 'https://github.com/Zepo/GYDataCenter'
+  s.homepage         = 'https://github.com/yhl714387953/EDatabase'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Zeposhe' => 'zeposhe@163.com' }
-  s.source           = { :git => 'https://github.com/yhl714387953/EDatabase.git', :tag => s.version }
+  s.author           = { 'zuiye' => '714387953@qq.com' }
+  s.source           = { :git => 'https://github.com/yhl714387953/EDatabase.git', :commit => 'bffcd6d7982017be1d88a52419bd49c73ec41c6b' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'EDatabase/**/*'
-  
-  # s.resource_bundles = {
-  #   'GYDataCenter' => ['GYDataCenter/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
